@@ -1,6 +1,9 @@
 public class Main {
     //TYPECASTING FUNCTION
-    static void typecasting(){
+    static void typecasting(double m){
+        int castnum=(int)int;
+         System.out.println(castnum);
+        
 
         System.out.println("this is my first methode or function definition that works typecasting function!!");
     }
@@ -9,7 +12,7 @@ public class Main {
         double num2 = 2;
         char num = '+';
         boolean m = true;
-        typecasting();
+        typecasting(4.6);
         switch (num) {
             case '+':
                 System.out.println(num1 + num2);
