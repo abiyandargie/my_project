@@ -3,7 +3,6 @@ public class Main {
         int num1 = 8;
         double num2 = 2;
         char num = '+';
-        boolean m = true;
         switch (num) {
             case '+':
                 System.out.println(num1 + num2);
